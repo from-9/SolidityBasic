@@ -33,13 +33,13 @@ contract lec25{
         if( _age < 19){
             revert("You are not allowed to pay for the cigarette");
         }
-        return "Your payment is scceeded";
+        return "Your payment is succeeded";
         
     } 
     
     function onlyAdults2(uint256 _age) public pure returns(string memory){
         require(_age>19,"You are not allowed to pay for the cigarette");
-        return "Your payment is scceeded";
+        return "Your payment is succeeded";
         
     } 
 }
