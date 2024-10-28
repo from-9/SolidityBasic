@@ -32,7 +32,7 @@ contract lec26{
         if( _age < 19){
             revert("You are not allowed to pay for the cigarette");
         }
-        return "Your payment is scceeded";
+        return "Your payment is succeeded";
         
     } 
     
