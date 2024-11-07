@@ -10,45 +10,23 @@
 				"inputs": [
 					{
 						"indexed": false,
-						"internalType": "string",
-						"name": "_str",
-						"type": "string"
-					}
-				],
-				"name": "JustFallback",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "_str",
-						"type": "string"
-					}
-				],
-				"name": "JustReceive",
-				"type": "event"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_num1",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
 					},
 					{
+						"indexed": false,
 						"internalType": "uint256",
-						"name": "_num2",
+						"name": "_num",
 						"type": "uint256"
 					}
 				],
-				"name": "addNumber",
+				"name": "Info",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "num",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -56,12 +34,15 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "receive"
+				"inputs": [],
+				"name": "plusOne",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -77,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lec36.sol": "add"
+			"lec37.sol": "add"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -91,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lec36.sol": {
-			"keccak256": "0xb6c71663ff60d8e87e00c01476137f8cade1a5755212a0a372db1ac606b78cf3",
+		"lec37.sol": {
+			"keccak256": "0x31c5a14ef0ca71580f0b099df7089a0b4a3cd6716574496c7e557a4b2a88d323",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8474e03ff4faa535714d7530dec8dca09cd2973215cdd3f55e1837277bad0e53",
-				"dweb:/ipfs/QmPGJtzBhM1d1CejQaQhBacuJJq5KT799kkSnQtwUhMFM4"
+				"bzz-raw://d506d70221e63e310fe9f7002d020e2069ddb404e1a6b03652eb2e8e2ef6b4c6",
+				"dweb:/ipfs/QmV7Lb2bdK3CrJri1kUQQgrBKbxhxicdfmGfNW8BSrJU2S"
 			]
 		}
 	},

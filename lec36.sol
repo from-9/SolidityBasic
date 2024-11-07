@@ -8,7 +8,8 @@ call :로우레벨 함수
 3. 가변적인 gas
 4. 이스탄불 하드포크, 2019년 12월이후, gas 가격 상승에 따른,  call 사용 권장/ send tranfer = 2300gas 
 5. re-entrancy(재진입) 공격위험 있기에, Checks_Effects_Interactions_pattern 사용  
-json은 사람이 알아볼 수 있는 것이기 때문에 기계가 알아볼 수 있게 16비트로 뭐 어쩌구 ㅋㅋ*/
+json은 사람이 알아볼 수 있는 것이기 때문에 기계가 알아볼 수 있게 16비트로 뭐 어쩌구 ㅋㅋ
+*/
 
 
 

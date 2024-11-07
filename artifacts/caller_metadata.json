@@ -6,45 +6,16 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "bool",
-						"name": "_success",
-						"type": "bool"
-					},
-					{
-						"indexed": false,
-						"internalType": "bytes",
-						"name": "_output",
-						"type": "bytes"
-					}
-				],
-				"name": "calledFunction",
-				"type": "event"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
 						"name": "_contractAddr",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num1",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num2",
-						"type": "uint256"
 					}
 				],
-				"name": "callMethod",
+				"name": "callNow",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -55,22 +26,22 @@
 						"type": "address"
 					}
 				],
-				"name": "callMethod3",
+				"name": "delcateCallNow",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "num",
+				"outputs": [
 					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "transferEther",
-				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -87,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lec36.sol": "caller"
+			"lec37.sol": "caller"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -101,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lec36.sol": {
-			"keccak256": "0xb6c71663ff60d8e87e00c01476137f8cade1a5755212a0a372db1ac606b78cf3",
+		"lec37.sol": {
+			"keccak256": "0x31c5a14ef0ca71580f0b099df7089a0b4a3cd6716574496c7e557a4b2a88d323",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8474e03ff4faa535714d7530dec8dca09cd2973215cdd3f55e1837277bad0e53",
-				"dweb:/ipfs/QmPGJtzBhM1d1CejQaQhBacuJJq5KT799kkSnQtwUhMFM4"
+				"bzz-raw://d506d70221e63e310fe9f7002d020e2069ddb404e1a6b03652eb2e8e2ef6b4c6",
+				"dweb:/ipfs/QmV7Lb2bdK3CrJri1kUQQgrBKbxhxicdfmGfNW8BSrJU2S"
 			]
 		}
 	},
