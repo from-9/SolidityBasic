@@ -9,7 +9,7 @@ pragma solidity >=0.7.0 < 0.9.0;
 
 
 msg.sender 
-msg.sender 는 스마트컨트랙을 사용하는 하는 주체라고 볼 수 있습니다.  
+msg.sender 는 스마트컨트랙을 상호작용 하는 주체라고 볼 수 있습니다.  
 msg.sender는 앞으로 설명해야 할 call vs delegate call에서 주요 내용이니 관심있게 봐주세요
 
 

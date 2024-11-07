@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_err",
+						"type": "string"
+					}
+				],
+				"name": "catchOnly",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "playTryCatch",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "simple",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lec28.sol": "runner2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lec28.sol": {
+			"keccak256": "0x0e446d9dd6eafb4ab0fcf731e719c02d3a098babf5c34c7a1ed5d73e0b24e4a6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5852dddfe1f6e1072c6d192a9bb9b0d7d7889767c8d935a8c8780a9075a24ca1",
+				"dweb:/ipfs/QmWn2PMpPCde7HWXtmxxMZu52FEVjtMTvmAWWiM5oSY5ti"
+			]
+		}
+	},
+	"version": 1
+}
